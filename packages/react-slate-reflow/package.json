@@ -34,6 +34,7 @@
     "color-convert": "^1.9.3",
     "colorette": "^1.0.5",
     "fast-memoize": "^2.5.1",
+    "kotlin": "^1.2.71",
     "shallowequal": "^1.1.0",
     "strip-ansi": "^4.0.0",
     "supports-color": "^5.5.0"

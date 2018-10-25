@@ -17,7 +17,7 @@ describe('calculateLayout integration suite', () => {
         return root;
       }
 
-      it('without style/layout props', () => {
+      fit('without style/layout props', () => {
         const root = getTree();
         const { layoutTree, drawableItems } = root.calculateLayout();
         expect(layoutTree.getLayoutTree()).toMatchSnapshot();

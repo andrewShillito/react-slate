@@ -5231,6 +5231,11 @@ kleur@^2.0.1:
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-2.0.2.tgz#b704f4944d95e255d038f0cb05fb8a602c55a300"
   integrity sha512-77XF9iTllATmG9lSlIv0qdQ2BQ/h9t0bJllHlbvsQ0zUWfU7Yi0S8L5JXzPZgkefIiajLmBJJ4BsMJmqcf7oxQ==
 
+kotlin@^1.2.71:
+  version "1.2.71"
+  resolved "https://registry.yarnpkg.com/kotlin/-/kotlin-1.2.71.tgz#79ded9c9cd0f18b23348ee73c199e883e80afe2a"
+  integrity sha512-B+dZ5bB5t6nEPlXtT7lsdbEKUK4pWQ2gRlZAXBM1vQ2uncj0VqAQKhGNYkKv5a1ipZCqkijqTXtxVZ7fbzSepw==
+
 lazy-cache@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"

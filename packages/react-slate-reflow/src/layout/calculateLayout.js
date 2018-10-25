@@ -23,10 +23,14 @@ export default function calculateLayout(
       ? hierarchy.getIndex(currentLayout.boxModel.getPosition().z)
       : null;
 
-    if (node.children.length) {
+    const children = node.children.toArray
+      ? node.children.toArray()
+      : node.children;
+
+    if (children.length) {
       layoutState.push(currentLayout);
 
-      node.children.forEach(child => {
+      children.forEach(child => {
         const childLayout = visit(child);
         currentLayout.updateDimensions(childLayout);
       });

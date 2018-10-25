@@ -1,6 +1,6 @@
 /* @flow */
 
-import View from './View';
+import View from './LegacyView';
 import type { ChildNode, Node } from '../types';
 import calculateLayout from '../layout/calculateLayout';
 import RootLayout from '../layout/elements/RootLayout';
